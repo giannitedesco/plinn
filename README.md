@@ -23,7 +23,6 @@ def partition(pred, it):
 Here are some benchmarks on my i7-6600U laptop with python 3.9.0 comparing
 against several pure-python variants of the same function:
 
-|----------|------------------------|
 | Variant  | Time for 32 iterations (seconds) |
 |----------|------------------------|
 |stdlib    | 3.2970685160253197     |
@@ -33,4 +32,3 @@ against several pure-python variants of the same function:
 |scara     | 2.2327406019903720     |
 |scara2    | 2.1951448819600046     |
 |plinn     | 1.5203454510774463     |
-|----------|------------------------|

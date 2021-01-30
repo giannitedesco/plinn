@@ -1,0 +1,4 @@
+- recursive mode
+- debounce feature
+  - return sets of changed files, with configurable debounce period
+- some way to re-run a function if a given file changes
